@@ -1,23 +1,13 @@
-.header {
-  background-color: #000000;
-  text-align: center;
-  padding: 10px;
-  border: 10px solid #f02323;
-}
-
-.header h1 {
-  font-size: 70px;
-}
-
-.body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
 .border {
-  border: 10px solid #b65c5c;
-  padding: 50px;
-  background-color: #32ecec52;
+  border: 10px solid;
+  border-radius: 0px 30px 30px 30px;
+  padding: 20px;
+}
+
+b {
+  font-size: 36px;
+}
+
+input[type="text"], input[type="file"], input[type="submit"], input[type="reset"], select {
+  font-size: 36px;
 }
